@@ -6,7 +6,8 @@ RUN \
     && cd /opt/goproxy \
     && curl -fSL https://github.com/phuslu/goproxy-ci/releases/download/r1309/goproxy-vps_linux_amd64-r163.tar.xz | tar xJ 
     
-ENV CONFIG_FILE_URL = https://pastbin/raw/....
+ENV CONFIG_FILE_URL = https://pastebin.com/raw/SyrGCvZj
+
 
 ADD entrypoint.sh /entrypoint.sh
 
