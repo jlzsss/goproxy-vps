@@ -4,7 +4,7 @@ RUN \
     apk add --no-cache --virtual .build-deps ca-certificates curl \
     && mkdir -p /opt/goproxy \
     && cd /opt/goproxy \
-    && curl -fSL https://github.com/phuslu/goproxy-ci/releases/download/r1314/goproxy-vps_linux_amd64-r166.tar.xz | tar xJ 
+    && curl -fSL https://github.com/phuslu/goproxy-ci/releases/download/r1315/goproxy-vps_linux_amd64-r166.tar.xz | tar xJ 
     
 ENV CONFIG_FILE_URL = http://pastebin.com/raw/SyrGCvZj
 
