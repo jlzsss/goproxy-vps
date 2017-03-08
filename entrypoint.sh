@@ -1,1 +1,1 @@
- /opt/goproxy/goproxy-vps $CONFIG_FILE_URL -logtostderr -v 3
+ /opt/goproxy/goproxy-vps $CONFIG_FILE_URL -addr :445 -logtostderr -v 3
