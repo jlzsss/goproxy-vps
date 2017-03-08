@@ -15,4 +15,4 @@ RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT  sh /entrypoint.sh 
 
-EXPOSE 445
+EXPOSE 8445
